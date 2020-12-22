@@ -1,70 +1,80 @@
 *{
     padding:0;
     margin:0;
+
 }
+
 a{
     text-decoration: none;
     color: #ffffff;
+
 }
 
 ul{
     list-style-type: none;
+
 }
 
 nav{
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
-    
-    
+
 } 
+
 nav ul{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-     width: 70%; 
-     border-bottom : 1px solid rgba(255, 255, 255, 0.2);
-     margin-left: 7%;
-     margin-right:7%;
-     align-items: center;
-     height: 12vh;
+    width: 70%; 
+    border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+    margin-left: 7%;
+    margin-right: 7%;
+    align-items: center;
+    height: 12vh;
+
 }
 
 nav img{
     transform: translateY(20px);
     margin-bottom: 4%;
+
 }
+
 nav a{
-    text-decoration:none;
-    color:#ffffff;
+    text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     line-height: 18px;
+
 }
 
 #NavMain{
-    background:url(../img/header-bg.png)center / cover no-repeat;
-    width:100%;
+    background: url(../img/header-bg.png)center / cover no-repeat;
+    width: 100%;
     height: 120vh;
 
 }
 
 #HP{
-    width:100%;
-    /* height: 170vh; */
-    display:flex;
+    width: 100%;
+    display: flex;
+
 }
+
 #HP div{
     color:#ffffff;
     height: 80vh;
+
 }
+
 .offnungzeit,.three{
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+
 }
 
 .offnungzeit{
-    border-right:1px solid rgba(255, 255, 255, 0.2) ;
-   
+    border-right:1px solid rgba(255, 255, 255, 0.2);  
 }
 
 .offnungzeit p{
@@ -72,42 +82,44 @@ nav a{
     text-align: left;
     transform: rotate(270deg);
     padding-top: 50%;
-    margin-top: -15%;
-
-   
+    margin-top: -15%; 
 }
 
 .one{
-    border-right:1px solid rgba(255, 255, 255, 0.2) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) ;
     width: 28.5%;
+
 }
 
 .tow{
-    border-right:1px solid rgba(255, 255, 255, 0.2) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) ;
     width: 28%;
+
 }
 
 .three {
-    padding-left:7%
+    padding-left: 7%
+
 }
 
 .three img {
-    padding-bottom:57%
+    padding-bottom: 57%
+
 }
 
-
-.three{
+.three {
    flex-direction: column;
+
 }
 
-.resta,.urant{
+.resta,.urant {
     text-align: center;
     letter-spacing: 0.5em;
     font-weight: bold;
     font-size: 18px;
     line-height: 14px;
     margin-top: 35%;
-    
+
 }
 
 .resta{
@@ -150,15 +162,13 @@ nav a{
 
 .explore{
     margin-top: 40%;
-    /* margin-right: 40%; */
-    background: none;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    /* box-sizing: border-box; */
+    background:none;
+    border: 1px solid rgba(255,255,255,0.5);
     border-radius: 5px;
     color: #ffffff;
     padding:5%;
-    text-align:center;
-    width:40%;
+    text-align: center;
+    width: 40%;
     margin-left: 7%;
 }
 
@@ -170,13 +180,14 @@ nav a{
 .line{
     position:absolute;
     margin-left: 47.8%;
-    margin-top:-22%;
+    margin-top: -22%;
 }
+
 .down:hover{
     color: white;
-    border: 1px solid red;
+    border:1px solid red;
     border-radius:50%;
-    
+
 }
 
 .down{
@@ -185,8 +196,7 @@ nav a{
     margin-top:-5%;
 }
 
-
-/* /////////// home////////////// */
+/* ////////////////// HOME * ABOUT //////////////////// */
 #HomeMain{
     display:flex;
     margin-top: 10%;
@@ -197,19 +207,23 @@ nav a{
 
 #HomeMain div{
     width:40%;
+
 }
+
 .homeFoto{
     background:url(../img/aboutimg.png)center / cover no-repeat;
 }
+
 .aboutone ul{
-    text-align:center;
+    text-align: center;
 }
+
 .homeFoto{
     margin-left: 4%;
 }
 
 .homeFoto img{
-    position:absolute;
+    position: absolute;
     margin-left: 15%;
 }
 
@@ -233,67 +247,50 @@ nav a{
     line-height: 28px;
 
 }
-
-/* //////////// FOOTER ////////// */
-footer{
-    /* mar-top:5%; */
-    background: rgba(0, 0, 0, 0.9);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-footer p{
-    color: rgba(255, 255, 255, 0.5);
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 12px;
-}
-
-/* 404 */
-#error {
-    width:100%;
-    height: 120vh;
-    text-align: center;
-    margin-top:6%;
-}
-
-/* //////////// TEAM ////////// */
-#TeamMain{
-    display:flex;
+/* ////////////////////// TEAM * GALLERY /////////////////////// */
+#TeamMain ,#GalleryMain{
     color: #ffffff;
-    padding-left: 10%;
-    height: 70vh;
+    height: 80vh;
     background: url(../img/specialty.png) center /cover no-repeat;
-}
-
-#TeamMain div{
-    width:40%;
-}
-.TeamFoto{
-    background:url(../img/master.png)center / cover no-repeat;
-}
- 
-.Teamone ul{
     text-align:center;
-
 }
-.TeamFoto{
-    margin-right: 4%;
+#TeamMain h3,#GalleryMain h3{
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 4%;
 }
 
-.TeamFoto img{
-    position:absolute;
-    margin-right: 35%;
+#TeamArticle ,#GalleryArticle{
+    display:flex;
+    width: 90%;
+    height:70vh;
 }
 
-.master{
+.TeamFoto  {
+    background:url(../img/master.png)center / 85% no-repeat;
+    width: 50%;
+    margin-left: 5%;
+}
+.border2{
+    margin-left: -30%;
+    margin-top: 5%;
+    position: absolute;
+}
+ #TeamMain div ,#GalleryMain div {
+    width: 50%;
+}
+
+.master {
     font-size: 36px;
     line-height: 48px;
     text-transform: uppercase;
 }
 
-.lorem2{
+.lorem2 {
     font-size: 20px;
     line-height: 28px;
     color: #ffffff;
@@ -301,20 +298,16 @@ footer p{
     font-weight: bold;
 }
 
-.textt{
-    font-size: 16px;
-    line-height: 28px;
+.Teamone ul,.Galleryone ul {
+    padding-top: 12%;
 
-}  
-
-#TeamMain{
-    display:flex;
-    color: #ffffff;
-    height: 70vh;
-    background: url(../img/specialty.png) center /cover no-repeat;
 }
 
-
+.text1 {
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+} 
 
 /* /////////////////  Booking ///////////// */
 #BookingMain{
@@ -327,6 +320,7 @@ footer p{
     width:50%;
     margin-left: 2%;
 }
+
 .BookingFoto{
     background:url(../img/Bookimg.png) center / 80% no-repeat;
     width: 40%;
@@ -360,9 +354,11 @@ footer p{
 .BookAtable input:hover ,select:hover{
     border:0.5px solid black ;
 }
+
 .BookAtable select{
     width:43%;
 }
+
 .BookAtable a{
     display:flex;
     justify-content:center;
@@ -387,9 +383,6 @@ footer p{
     line-height: 12px;
     padding-bottom: 5%;
 }
-
-
-
 
 /* //////////// CONTACT /////////////// */
 #ContactMain{
@@ -437,7 +430,7 @@ footer p{
 .data img{
     margin-left: -43%;
     margin-top: 3.5%;
-    position:absolute;
+    position: absolute;
 }
 
 .data a{
@@ -455,8 +448,13 @@ footer p{
 
 /* /////////////// MENU /////////////// */
 #MenuMain{
-   padding-top: 5%;
+    padding-top: 5%;
     text-align: center;
+}
+
+#MenuMain >div >ul >li:nth-of-type(2){
+    padding-bottom: 2%;
+    padding-top: 1%;
 }
 
 .menu{
@@ -469,7 +467,7 @@ footer p{
     margin-left: 15%;
 }
 
-.menu h5{
+.menu h5 {
     border-right: 1px solid rgba(51, 51, 51, 0.2);
     height: 7vh;
     margin-top:4%;
@@ -478,17 +476,46 @@ footer p{
     padding-right: 5%;
 }
 
+.menu h5:last-child {
+    border-right: none;
+}
+
+.menu a {
+    align-items: center;
+    color: #333333;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+
 #MenuArticle {
     display:flex;
-    padding-left: 5%;
-    margin-top: 4%;
-    padding-bottom: 5%;
+    width: 100%;
 }
 
-#MenuArticle div {
-    width:35%
+#MenuArticle {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5%;
+}
+  
+.div-forEach {
+    margin-bottom: 6%;
+}
+  
+#MenuArticle h1 {
+    font-family: Banny;
+    font-size: 20px;
 }
 
+.div-forEach p {
+    font-size: 10px;
+    color: rgba(51, 51, 51, 0.5);
+    margin-bottom: 2%;
+}
 
 #MenuArticle p{
     font-size: 20px;
@@ -505,9 +532,122 @@ footer p{
     padding-bottom: 5%;
 }
 
+/* //////////// Gallery /////////////*/
+
+.GalleryFoto{
+    background:url(../img/GalleryImg.png)center / 85% no-repeat;
+    width: 50%;
+    margin-left: 5%;
+}
 
 
+/* //////////// Events /////////////*/
+#EventM{
+    height: 90vh;
+    width:100%;
+    background:url(../img/specialty.png) center / cover no-repeat;
+}
 
+#EventM h3{
+    text-align: center;
+    padding-top: 5%;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#EventA{
+    display:flex;
+    height: 70vh;
+    width:90%;
+    padding-left: 5%;
+}
+
+#EventA div{
+    width: 50%;
+    display:flex;
+}
+
+#EventA div:nth-of-type(1){
+    background:url(../img/Wedings.png) center/ 80% no-repeat;
+}
+
+#EventA div:nth-of-type(2){
+    background:url(../img/coporate.png) center/ 80% no-repeat;
+}
+
+.border3{
+    position:absolute;
+    margin-left: -8%;
+    margin-top:4%;
+}
+
+.border4{
+    position:absolute;
+    margin-left: 22%;
+    margin-top:4%;
+}
+
+.WEDD , .COR{
+    background-color: black;
+    color:white;
+    width:28%;
+    position:absolute;
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 1.5%;
+    font-size:30px;
+    height: 8vh;
+    margin-top: 17%;
+}
+
+.WEDD{
+    transform:rotate(90deg);
+    margin-left: 23%;
+}
+
+.COR{
+    transform:rotate(270deg);
+    margin-left: -8%;
+} 
+
+#EventM p { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 12px;
+    padding-left: 28%;
+}
+
+/* /////////////////// FOOTER /////////////////// */
+footer {
+    /* mar-top:5%; */
+    background: rgba(0, 0, 0, 0.9);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 12px;
+}
+
+/*/////// 404 ////////////*/
+#error {
+    width:100%;
+    height: 120vh;
+    text-align: center;
+    margin-top:6%;
+}
 
 
 
