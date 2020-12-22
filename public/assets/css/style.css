@@ -259,7 +259,7 @@ footer p{
 }
 
 /* //////////// TEAM ////////// */
-/* #TeamMain{
+#TeamMain{
     display:flex;
     color: #ffffff;
     padding-left: 10%;
@@ -313,7 +313,7 @@ footer p{
     height: 70vh;
     background: url(../img/specialty.png) center /cover no-repeat;
 }
-*/
+
 
 
 /* /////////////////  Booking ///////////// */
@@ -457,6 +457,52 @@ footer p{
 #MenuMain{
    padding-top: 5%;
     text-align: center;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    height: 10vh;
+    margin-left: 15%;
+}
+
+.menu h5{
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    height: 7vh;
+    margin-top:4%;
+    display:flex;
+    align-items: center;
+    padding-right: 5%;
+}
+
+#MenuArticle {
+    display:flex;
+    padding-left: 5%;
+    margin-top: 4%;
+    padding-bottom: 5%;
+}
+
+#MenuArticle div {
+    width:35%
+}
+
+
+#MenuArticle p{
+    font-size: 20px;
+    line-height: 18px;
+    color: #333333;
+    padding-bottom: 1%;
+}
+
+#MenuArticle h4{
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+    opacity: 0.4;
+    padding-bottom: 5%;
 }
 
 

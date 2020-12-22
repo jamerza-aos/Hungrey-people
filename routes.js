@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const myData=require('./menu.json')
 
 // const nav = require('./nav')
 
@@ -21,7 +22,7 @@ router.get('/gallery', (req, res) => {
     res.render('gallery')
 })
 router.get('/menu', (req, res) => {
-    res.render('menu')
+    res.render('menu' ,{title:'MENU',myData})
 })
 
 router.get('/events', (req, res) => {

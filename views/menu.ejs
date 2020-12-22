@@ -10,15 +10,97 @@
         </ul>
     </div>
 
-    <div>
-        <h3>SOUPE</h3>
-        <h3>PIZZA</h3>
-        <h3>PASTA</h3>
-        <h3>DESERT</h3>
-        <h3>WINE</h3>
-        <h3>BEER</h3>
-        <h3>DRINKS</h3>
+    <div class="menu">
+        <h5>SOUPE</h5>
+        <h5>PIZZA</h5>
+        <h5>PASTA</h5>
+        <h5>DESERT</h5>
+        <h5>WINE</h5>
+        <h5>BEER</h5>
+        <h5>DRINKS</h5>
     </div>
 </main>
+
+    <article id="MenuArticle">
+
+        <% myData.forEach(data=>{%>
+            <div class="div-forEach">
+                <h1>
+                    <%= data.name %> . . . . <%= data.price %>
+                </h1>
+                <p>
+                    <%= data.disc %>
+                </p>
+            </div>
+            <%}) %>
+        <!-- <div>
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+             <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+             <h4>Integer ullamcorper neque eu purus euismod</h4>
+        </div>
+        
+        <div>
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+            <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+            <h4>Integer ullamcorper neque eu purus euismod</h4>
+       </div>
+
+       <div>
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+
+        <p>PIZZA QUATRO STAGIONI . . . . 55,68 USD </p>
+        <h4>Integer ullamcorper neque eu purus euismod</h4>
+   </div> -->
+    </article>
 
     <%- include('./partials/footer') %>
